@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/icon.png">
+    <title>Random BaekJoon</title>
+</head>
+<body>
+    <div>
+        <h1>Random Bae<span class="title-span">/&lt;</span>Joon<span class="title-span">&gt;</span> Generator</h1>
+        <form method="POST" action="/">
+            <input placeholder="write your id" name="account">
+            <button class="button">Generate!</button>
+        </form>
+        <h4>Hello <span class="userID">{{ .Account }}</span> !</h4>
+        <h4>{{ .Title }}<a href="{{.Address}}" target="_blank" class="link">{{ .Address }}</a>{{ .Message }}</h4>
+    </div>
+</body>
+</html>

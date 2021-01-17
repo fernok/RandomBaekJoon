@@ -1,0 +1,64 @@
+body {
+    background-image: url("/static/background3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #add2e2;
+}
+
+div {
+    color: #1a2e3d;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+input {
+    border-radius: 2px;
+    border: 2px solid #428BCA;
+    background-color: white;
+}
+
+.title-span {
+    color: #428BCA;
+}
+
+.userID {
+    color: #428BCA;
+}
+
+.link {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 2px;
+    border: 2px solid #428BCA;
+    background-color: #add2e2;
+    color: #428bca;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #428BCA;
+    color: #add2e2;
+}
+
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+    display: none;
+}
